@@ -1,3 +1,10 @@
+![OpenClaw](https://img.shields.io/badge/Framework-OpenClaw%202026-blue?style=for-the-badge&logo=openai&logoColor=white)
+![Hardware](https://img.shields.io/badge/Hardware-Raspberry%20Pi%204-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Model](https://img.shields.io/badge/Model-Gemini%203.1%20Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Status](https://img.shields.io/badge/Status-24/7%20Active-4c1?style=for-the-badge)
+
+---
+
 # 🦞 OpenClaw Node: Raspberry Pi 4 Optimization
 ### Strategic Migration: Paid Models (Claude) to Free-Tier Stability (Gemini)
 
@@ -26,7 +33,7 @@ To ensure a clean deployment on the Pi, we used non-interactive onboarding and m
 # Ensure OpenClaw is in the system path
 export PATH="$(npm prefix -g)/bin:$PATH"
 
-# Non-interactive onboarding (Bypassing manual menus)
+# Non-interactive onboarding
 openclaw onboard --non-interactive \
   --mode local \
   --auth-choice gemini-api-key \
